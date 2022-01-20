@@ -4,7 +4,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[T_15Col_01](
 	[Column1] [int] IDENTITY(1,1) NOT NULL,
-	[Column2] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[newColumnName] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column3] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column4] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column5] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
@@ -15,7 +15,7 @@ CREATE TABLE [dbo].[T_15Col_01](
 	[Column10] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column11] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column12] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-	[Column13] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[conflictName] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column14] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column15] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[Column16] [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
